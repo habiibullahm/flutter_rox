@@ -17,11 +17,17 @@ class MyApp extends StatelessWidget {
               title: Text("Flutter Rox"),
               backgroundColor: Colors.orange,
               actions: <Widget>[
-                IconButton(icon: Icon(Icons.gamepad), onPressed: () {})
+                IconButton(
+                  icon: Icon(Icons.gamepad),
+                  onPressed: () {},
+                  color: Colors.blueGrey,
+                )
               ]),
           body: SafeArea(
-            child: Text("Ayo Bermain Bersama"),
+            child: Image(
+              image: AssetImage('assets/images/rox.jpg'),
           )),
+      )
     );
   }
 }
