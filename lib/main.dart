@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Flutter',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: Scaffold(
+        debugShowCheckedModeBanner: false,
+        title: 'Flutter',
+        theme: ThemeData(primarySwatch: Colors.blue),
+        home: Scaffold(
           appBar: AppBar(
               title: Text("Flutter Rox"),
               backgroundColor: Colors.orange,
@@ -24,10 +24,18 @@ class MyApp extends StatelessWidget {
                 )
               ]),
           body: SafeArea(
-            child: Image(
-              image: AssetImage('assets/images/rox.jpg'),
+              child: Container(
+            child: Column(
+              children: <Widget>[
+                Image(
+                  image: AssetImage('assets/images/lepo.jpg'),
+                  height: 250,
+                ),
+                Text("Ragnarox X Generations"),
+                Text("Lets PLay Together")
+              ],
+            ),
           )),
-      )
-    );
+        ));
   }
 }
