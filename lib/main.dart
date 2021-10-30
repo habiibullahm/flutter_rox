@@ -9,11 +9,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
           appBar: AppBar(
-              title: Text("Flutter Rox"), backgroundColor: Colors.orange),
+              title: Text("Flutter Rox"),
+              backgroundColor: Colors.orange,
+              actions: <Widget>[
+                IconButton(icon: Icon(Icons.gamepad), onPressed: () {})
+              ]),
           body: SafeArea(
             child: Text("Ayo Bermain Bersama"),
           )),
