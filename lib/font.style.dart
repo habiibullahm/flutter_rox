@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'custom.colors.dart';
 
 TextStyle mainHeader = TextStyle(
-  // fontSize: 20,
-  // color: Colors.black87,
+  fontSize: 20,
+  color: orange,
   fontFamily: "Poppins",
   fontWeight: FontWeight.w700,
 );

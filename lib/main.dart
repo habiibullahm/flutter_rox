@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_appp/custom.colors.dart';
 import 'font.style.dart';
 
 void main() {
@@ -16,12 +17,12 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
               title: Text("Flutter Rox"),
-              backgroundColor: Colors.orange,
+              backgroundColor: orange,
               actions: <Widget>[
                 IconButton(
                   icon: Icon(Icons.gamepad),
                   onPressed: () {},
-                  color: Colors.blueGrey,
+                  color: Colors.white,
                 )
               ]),
           body: SafeArea(
