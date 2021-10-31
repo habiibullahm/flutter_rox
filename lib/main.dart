@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'font.style.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
           body: SafeArea(
               child: Container(
             margin: EdgeInsets.only(left: 23.0, top: 0, right: 23.0, bottom: 0),
-            padding: EdgeInsets.only(left: 0, top: 0, right: 0, bottom: 0),
+            padding: EdgeInsets.only(left: 0, top: 20, right: 0, bottom: 0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -34,10 +35,24 @@ class MyApp extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Image(
-                        image: AssetImage('assets/images/lepo.jpg'),
-                        width: 250),
-                    Text("Ragnarox X Generations"),
-                    Text("Lets PLay Together")
+                      image: AssetImage('assets/images/rox.jpg'),
+                      width: 300,
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 20, bottom: 4),
+                    ),
+                    Text(
+                      "RAGNAROK X GENERATIONS",
+                      style: mainHeader,
+                    ),
+                    Padding(
+                      padding: EdgeInsets.only(top: 5),
+                    ),
+                    Text(
+                      "Lets PLay and Have Fun Together\nBe THe Strongest!",
+                      style: subHeader,
+                      textAlign: TextAlign.center,
+                    )
                   ],
                 )
               ],
