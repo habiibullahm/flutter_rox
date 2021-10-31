@@ -1,17 +1,9 @@
-# my_appp
+# Flutter ROX
+In this project I learnt how to import and show images, setup styles, use widgets, setup margin and padding, set column and row, align widget, use custom color. 
 
-A new Flutter project.
+### Final Result 
+![alt text](https://github.com/habiibullahm/flutter_rox/blob/main/screenshot/3.jpg)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# flutter_rox" 
+## Previously
+![alt text](https://github.com/habiibullahm/flutter_rox/blob/main/screenshot/1.jpeg)
+![alt text](https://github.com/habiibullahm/flutter_rox/blob/main/screenshot/2.jpeg)
