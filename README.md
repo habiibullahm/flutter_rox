@@ -16,3 +16,10 @@ In this project I learnt how to:
   <img src="https://github.com/habiibullahm/flutter_rox/blob/main/screenshot/1.jpeg" width="300"/>
   <img src="https://github.com/habiibullahm/flutter_rox/blob/main/screenshot/2.jpeg" width="300"/>
 </div>
+
+## Resources
+- https://flutter.dev/docs
+- https://buildwithangga.com/kelas/flutter-mobile-apps
+- https://flatuicolors.com/
+- https://dillinger.io/
+
