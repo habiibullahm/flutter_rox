@@ -25,16 +25,30 @@ class MyApp extends StatelessWidget {
               ]),
           body: SafeArea(
               child: Container(
-            child: Column(
+            margin: EdgeInsets.only(left: 23.0, top: 0, right: 23.0, bottom: 0),
+            padding: EdgeInsets.only(left: 0, top: 0, right: 0, bottom: 0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image(
-                  image: AssetImage('assets/images/lepo.jpg'),
-                  height: 250,
-                ),
-                Text("Ragnarox X Generations"),
-                Text("Lets PLay Together")
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image(
+                        image: AssetImage('assets/images/lepo.jpg'),
+                        width: 250),
+                    Text("Ragnarox X Generations"),
+                    Text("Lets PLay Together")
+                  ],
+                )
               ],
             ),
+            // child: Column(
+            //   children: <Widget>[
+            //     Image(image: AssetImage('assets/images/lepo.jpg'), width: 250),
+            //     Text("Ragnarox X Generations"),
+            //     Text("Lets PLay Together")
+            //   ],
+            // ),
           )),
         ));
   }
